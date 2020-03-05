@@ -12,48 +12,10 @@
   clear: both;
 }
 
-/* UTILITIES */
-
-.bd-btm {
-  border-bottom: 1px solid black;
-}
-
-.bkg-gray {
-  background: gainsboro;
-}
-
-.mrgn-top50 {
-  margin-top: 50px;
-}
-
-#why img,
-h3,
-p {
-  padding-bottom: 20px;
-}
-
-h3 {
-  padding-top: 20px;
-}
-
-img {
-  max-width: 100%;
-  height: 200px;
-}
-
-#why img {
-  background-color:#428bca;
-  border-radius:50%;
-  padding: 30px;
-}
-
 /* COLUMNS COMMON STYLES */
 [class*="col-"] {
   float: left;
   padding: 16px;
-  /* DEBUG:  */
-    /* background: pink;
-  border: 1px solid #000; */
   text-align: center;
 }
 
@@ -351,4 +313,14 @@ img {
   .offset-xs-11 {
     margin-left: calc((100% / 12) * 11);
   }
+}
+
+/* COLUMN STYLES UTILITIES FOR GRID BOOL RESPONSIVE */
+#colresp12 [class*="col-"] {
+  background: pink;
+  border: 1px solid black;
+}
+
+#colresp12 .container {
+  margin-bottom: 0;
 }
