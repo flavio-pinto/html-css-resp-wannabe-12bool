@@ -1,0 +1,46 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+}
+
+/* UTILITIES */
+
+.bd-btm {
+  border-bottom: 1px solid black;
+}
+
+.bkg-gray {
+  background: gainsboro;
+}
+
+.mrgn-top50 {
+  margin-top: 50px;
+}
+
+/* STYLES */
+
+#why img,
+h3,
+p {
+  padding-bottom: 20px;
+}
+
+h3 {
+  padding-top: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: 200px;
+}
+
+#why img {
+  background-color:#428bca;
+  border-radius:50%;
+  padding: 30px;
+}
