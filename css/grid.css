@@ -316,6 +316,15 @@
 }
 
 /* COLUMN STYLES UTILITIES FOR GRID BOOL RESPONSIVE */
+#colresp12 {
+  text-align: center;
+}
+
+#colresp12 h2 {
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
 #colresp12 [class*="col-"] {
   background: pink;
   border: 1px solid black;
